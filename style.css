@@ -1,0 +1,81 @@
+body{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background-color: rgb(227, 227, 247);
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+}
+
+.upper{
+    background:rgb(43, 43, 155);
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    padding: 13px 0;
+    height: 50px;
+}
+.upper h1{
+    padding:0 13px;
+    color: #fff;
+    font-size:40px;
+}
+.upper button{
+    color: #fff;
+    background-color: green;
+    font-size: 15px;
+    padding: 10px;
+}
+.form-box{
+    width: 450px;
+    padding: 13px;
+}
+#p1{
+    font-size: 23px;
+    font-weight: 400;
+}
+.name{
+    display: flex;
+}
+.name input{
+      width: 45%;
+      margin-bottom: 15px;
+      padding: 10px;
+      font-size: 18px;
+      margin-left: 5px;
+      border-radius: 3px;
+}
+.bottom input{
+    width: 95%;
+    margin-bottom: 15px;
+    padding: 10px;
+    font-size: 18px;
+    border-radius: 3px;
+    
+}
+.birthday select{
+       width:80px;
+       padding: 3px;
+      font-size: 15px;
+      margin-bottom: 15px;
+}
+.gender{
+    font-size: 20px;
+    font-weight: 500;
+}
+.content{
+    font-size: 17px;
+}
+#btn1{
+    width:45%;
+    margin-bottom: 10px;
+    color:#fff;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 5px;
+    border: none;
+    padding: 10px 0;
+    cursor: pointer;
+    background:green;
+}

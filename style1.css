@@ -1,0 +1,69 @@
+body{
+    
+}
+.container{
+    background:aliceblue;
+    display: flex;
+    
+}
+.topnav{
+    background: #fff;
+    height:50px;
+    align-items: center;
+    align-content:center ;
+}
+.topnav input{
+    width: 200px;
+      height: 25px;
+      font-size: 15px;
+      border-radius: 15px;
+      background-color: #f7f7f7;
+}
+
+.left{
+    background-color:#f7f7f7;
+    width: 17vw;
+    height: 1000px;
+    
+}
+.middle{
+    background-color:#f7f7f7;
+    width: 55vw;
+    height: 1000px;
+    overflow-y: scroll;
+}
+
+.story{
+    background: #fff;
+}
+.addpst{
+    background: #fff;
+    
+}
+.addpst input{
+      width: 600px;
+      height: 25px;
+      font-size: 15px;
+      border-radius: 15px;
+      background-color: #f7f7f7;
+}
+.add{
+    display: flex;
+}
+.add p{
+    padding: 30px;
+    font-weight: 300;
+}
+
+
+.card img{
+    width: 600px;
+    height: 600px;
+    padding:13px;
+}
+.right{
+    background-color:#f7f7f7;
+    width:28vw;
+    height: 1000px;
+    padding: 0 13px;
+}
