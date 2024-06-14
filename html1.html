@@ -13,27 +13,37 @@
 
 </head>
 <body>
-    <div class="topnav">
-        <nav>
-            <i class="fa fa-circle-o"></i>
-            <i class="fa fa-search" aria-hidden="true"></i>
-            <input type="text" placeholder="Search Facebook">
-            <i class="fa fa-user-circle-o" aria-hidden="true"></i>
+    <nav class="topnav">
+        
+           <i id="facebook" class="fa-brands fa-facebook"></i>
+           <div class="search-box">
+            <i id="search-icon" class="fa fa-search" aria-hidden="true"></i>
+            <input id="search-bar" type="text" placeholder="Search Facebook">
+            </div>
+            <i id="home" class="fa-solid fa-house"></i>
+            <i id="user"class="fa-solid fa-user-group"></i>
+            <i id="users" class="fa-solid fa-users"></i>
+            <input id="search-bar1" type="text" placeholder="Find friends">
+            <i id="message" class="fa-brands fa-facebook-messenger"></i>
+            <i id="bell" class="fa-solid fa-bell"></i>
         </nav>
-    </div>
     <div class="container">
+       
+            
+            <i class="fa fa-circle-o"></i>
     <div class="left">
-        <ul>
-            <li>Home</li>
-            <li>Find Friends</li>
+        <ul type="none">
+            <li><i class="fa-regular fa-user"></i>Viha Wankhede</li>
+            <li><i class="fa-solid fa-house"></i>Home</li>
+            <li><i class="fa-solid fa-users"></i>Find Friends</li>
             <li>Welcome</li>
-            <li>Memories</li>
-            <li>Saved</li>
-            <li>Groups</li>
+            <li><i class="fa-regular fa-clock"></i>Memories</li>
+            <li><i class="fa-regular fa-bookmark"></i>Saved</li>
+            <li><i class="fa-thin fa-users-line"></i>Groups</li>
             <li>Video</li>
             <li>Marketplace</li>
             <li>Feeds</li>
-            <li>Events</li>
+            <li><i class="fa-light fa-calendar"></i>Events</li>
             <li>Ads Manager</li>
             <li>favorites</li>
         </ul>
@@ -41,18 +51,34 @@
      <div class="middle">
 
            <div class="story">
-            <h2>Create Story</h2>
-            <p>Share a photo or write something.</p>
-           </div>
+            <div class="posts">
+                <img src="./Images/girl1.jpg">
+            </div>
+            <div class="posts">
+                <img src="./Images/boy1.jpg">
+            </div>
+            <div class="posts">
+                <img src="./Images/girl2.jpg">
+            </div>
+            <div class="posts">
+                <img src="./Images/girl3.jpg">
+            </div>
+            <div class="posts">
+                <img src="./Images/boy2.jpg">
+            </div>
+            
+        </div>
 
            <div class="addpst">
             <i class="fa fa-user-circle-o" ></i>
             <input type="text" placeholder="What's on your mind, vaishnavi?">
             <hr>
-
             <div class="add">
+            <i id="vedio"class="fa-solid fa-video"></i>
             <p>Live vedio</p>
+            <i id="image"class="fa-regular fa-image"></i>
             <p>Photo/vedio</p>
+            <i id="smile" class="fa-regular fa-face-smile"></i>
             <p>Feeling/activity</p>
             </div>
 
@@ -67,8 +93,8 @@
 
             <div class="card">
                 <img src="./img1.jpg">
-                <i class="fa fa-thumbs-o-up"aria-hidden="true"></i>
-                <button type="submit">Like</button>
+                
+                <button type="submit"><i class="fa-solid fa-thumbs-up"></i>Like</button>
                 <button type="submit">Comment </button> 
                 <button type="submit">Share</button>
             </div>

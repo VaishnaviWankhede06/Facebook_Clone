@@ -1,44 +1,122 @@
 body{
-    
+    background-color: #d46161;
 }
 .container{
-    background:aliceblue;
+    background:rgb(228, 239, 248);
     display: flex;
-    
+    margin-top: 5px;
 }
 .topnav{
+    width: 100%;
     background: #fff;
     height:50px;
+    display: flex;
     align-items: center;
-    align-content:center ;
 }
-.topnav input{
-    width: 200px;
-      height: 25px;
-      font-size: 15px;
-      border-radius: 15px;
-      background-color: #f7f7f7;
+#facebook{
+    font-size: 25px;
+    color: #1877F2;
+    padding-right: 5px;
+}
+#search-icon{
+    padding-right: 4px;
+}
+#home{
+    color: #1877F2;
+    font-size: 20px; 
+    padding-left: 300px;
+}
+#user{
+   font-size: 20px;
+   color: black;
+   padding-left: 80px; 
 }
 
+
+#users{
+    font-size: 20px;
+   color: black;
+   padding-left: 80px;
+}
+#message{
+    font-size: 25px;
+    padding-left: 30px;
+    color: #1877F2;
+}
+#bell{
+    font-size: 25px;
+    padding-left: 20px;
+    color: black;
+}
+
+.search-box{
+    align-items: center;
+    display: flex;
+    width: 200px;
+    height: 25px;
+    font-size: 15px;
+    border-radius: 15px;
+    background-color: #f7f7f7;
+}
+.topnav #search-bar{
+    width: 150px;
+      height: 30px;
+      font-size: 15px;
+     background:none;
+     border: none;
+     border-radius: 15px;
+     font-weight:bold;
+}
+.topnav #search-bar1{
+    width: 100px;
+    height: 30px;
+    border-radius: 15px;
+    font-weight:bold;
+    text-align: center;
+    margin-left: 150px;
+}
+.topnav img{
+    width: 30px;
+    height: 30px;
+    border-radius:30px;
+}
 .left{
-    background-color:#f7f7f7;
+    background-color:#bbc4f7;
     width: 17vw;
-    height: 1000px;
     
 }
+.left i{
+    padding-right:10px;
+    padding-left: 0;
+    margin-left: 0;
+}
 .middle{
-    background-color:#f7f7f7;
+    background-color:#bbc4f7;
     width: 55vw;
-    height: 1000px;
-    overflow-y: scroll;
+    
 }
 
 .story{
     background: #fff;
+    display: flex;
+    width: 55vw;
+    
+}
+.story img{
+    width:120px;
+    height:250px
+    
+}
+.posts{
+    width:120px;
+    padding: 10px;
+    border-radius: 20px;
+    height:250px
 }
 .addpst{
     background: #fff;
-    
+    margin-top: 40px;
+    height: 100px;
 }
 .addpst input{
       width: 600px;
@@ -46,24 +124,45 @@ body{
       font-size: 15px;
       border-radius: 15px;
       background-color: #f7f7f7;
+      margin-top: 10px;
 }
 .add{
     display: flex;
 }
 .add p{
-    padding: 30px;
+    
     font-weight: 300;
 }
-
-
+.add #vedio{
+    color:red;
+}
+.add #image{
+    color:green;
+}
+.add #smile{
+    color:yellow;
+}
+.card{
+    margin:0 0 10px 30px;
+    justify-content:center ;
+    flex:1;
+    width: 100%;
+    background-color: #fff;
+}
 .card img{
-    width: 600px;
-    height: 600px;
-    padding:13px;
+    display: block;
+    justify-content: center;
+    width: 90%;
+    height: auto;
+    padding-bottom: 10px
+}
+.card button{
+    margin: 0 5px 0 5px;
 }
 .right{
-    background-color:#f7f7f7;
+    background-color:#bbc4f7;
     width:28vw;
     height: 1000px;
     padding: 0 13px;
 }
+
