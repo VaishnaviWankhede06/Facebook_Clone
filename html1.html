@@ -11,67 +11,102 @@
     integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
      crossorigin="anonymous" referrerpolicy="no-referrer"/>
 
+     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
 </head>
 <body>
     <nav class="topnav">
         
-           <i id="facebook" class="fa-brands fa-facebook"></i>
+        <i id="facebook" class="fa-brands fa-facebook"></i>
            <div class="search-box">
             <i id="search-icon" class="fa fa-search" aria-hidden="true"></i>
             <input id="search-bar" type="text" placeholder="Search Facebook">
             </div>
             <i id="home" class="fa-solid fa-house"></i>
             <i id="user"class="fa-solid fa-user-group"></i>
-            <i id="users" class="fa-solid fa-users"></i>
+            <span id="s1"><i id="users" class="fa-solid fa-users"></i></span>
             <input id="search-bar1" type="text" placeholder="Find friends">
-            <i id="message" class="fa-brands fa-facebook-messenger"></i>
-            <i id="bell" class="fa-solid fa-bell"></i>
+            <span id="square"><i class="fa-solid fa-bars"></i></span>
+            <span><i id="message" class="fa-brands fa-facebook-messenger"></i></span>
+            <span><i id="bell" class="fa-solid fa-bell"></i></span>
+            <span id="user3"><i class="fa-solid fa-user"></i></span>
+            
+            
         </nav>
     <div class="container">
        
             
             <i class="fa fa-circle-o"></i>
     <div class="left">
-        <ul type="none">
-            <li><i class="fa-regular fa-user"></i>Viha Wankhede</li>
+        <ul>
+            <li><img id="left_icon3"src="./Images/girl1.jpg">Viha Wankhede</li>
             <li><i class="fa-solid fa-house"></i>Home</li>
             <li><i class="fa-solid fa-users"></i>Find Friends</li>
-            <li>Welcome</li>
+        
+            <li><i id="facebook1" class="fa-brands fa-facebook"></i>Welcome</li>
             <li><i class="fa-regular fa-clock"></i>Memories</li>
             <li><i class="fa-regular fa-bookmark"></i>Saved</li>
-            <li><i class="fa-thin fa-users-line"></i>Groups</li>
-            <li>Video</li>
-            <li>Marketplace</li>
-            <li>Feeds</li>
-            <li><i class="fa-light fa-calendar"></i>Events</li>
-            <li>Ads Manager</li>
-            <li>favorites</li>
+            <li><i id="left_icon2" class="fa-solid fa-users"></i>Groups</li>
+            <li><i class="fa-solid fa-tv"></i>Video</li>
+            <li><i class="fa-solid fa-shop"></i>Marketplace</li>
+            
+            <li><i class="fa-solid fa-calendar-days"></i>Events</li>
+            <li><i class="fa-solid fa-chart-simple"></i>Ads Manager</li>
+            <li><i class="fa-solid fa-heart"></i>favorites</li>
+            
+            <li><i class="fa-solid fa-gear"></i>Setting & Privacy</li>
         </ul>
      </div>
      <div class="middle">
 
            <div class="story">
-            <div class="posts">
-                <img src="./Images/girl1.jpg">
+            
+            <div id="girl1" class="posts">
+                <img class="post_image" src="./Images/girl1.jpg">
+                <div id="id_pic" class="story_image">
+                    <img id="circle_img"class="story_image1"src="./Images/girl4.jpg">
+                </div>
+                <div class="story_name">Add to Story</div>
             </div>
-            <div class="posts">
-                <img src="./Images/boy1.jpg">
+            
+            <div id="boy1" class="posts">
+                <img class="post_image"src="./Images/boy1.jpg">
+                <div id="id_pic1"class="story_image">
+                    <img id="circle_img1"class="story_image1"src="./Images/boy3.jpg">
+                    <div class="story_name">James</div>
+                </div>
             </div>
-            <div class="posts">
-                <img src="./Images/girl2.jpg">
+
+            <div id="girl2" class="posts">
+                <img class="post_image"src="./Images/girl2.jpg">
+                <div class="story_image">
+                    <img class="story_image1"src="./Images/girl5.jpg">
+                    <div class="story_name">Olivia</div>
+                </div>
             </div>
-            <div class="posts">
-                <img src="./Images/girl3.jpg">
+
+            <div id="girl3" class="posts">
+                <img class="post_image"src="./Images/girl3.jpg">
+                <div class="story_image">
+                    <img class="story_image1" src="./Images/boy3.jpg">
+                    <div class="story_name">Amelia</div>
+                </div>
             </div>
-            <div class="posts">
-                <img src="./Images/boy2.jpg">
+            <div id="boy2" class="posts">
+                <img class="post_image"src="./Images/boy2.jpg">
+                <div class="story_image">
+                    <img class="story_image1" src="./Images/boy4.jpg">
+                    <div class="story_name">Rowan</div>
+                </div>
             </div>
             
         </div>
 
            <div class="addpst">
-            <i class="fa fa-user-circle-o" ></i>
-            <input type="text" placeholder="What's on your mind, vaishnavi?">
+             <div class="add_post">
+                <img src="./Images/girl1.jpg">
+                <input type="text" placeholder="What's on your mind, Viha?">
+             </div>
             <hr>
             <div class="add">
             <i id="vedio"class="fa-solid fa-video"></i>
@@ -84,38 +119,111 @@
 
            </div>
             <div class="card">
-                <h2>An</h2>
-                <img src="./free-images.jpg">
-                <button type="submit">Like</button>
-                <button type="submit">Comment</button>
-                <button type="submit">Share</button>
+                <div class="cls_pst">
+                    <img class="card_img"src="./Images/girl9.jpg">
+                    <p class=""><b>Anime World</b></p>
+                </div>
+                
+                
+                <img class="cls_pst1"src="./free-images.jpg">
+                <div class="lk_cmt_shr">
+                    <span><i class="fa-solid fa-thumbs-up"></i></span>
+                    <p class="l_id">8.7k</p>
+                    <p class="c_id">37 Comments</p>
+                    <p class="s_id">3.3k Shares</p>
+                </div>
+                <hr>
+                <div class="card__button">
+                <button type="submit"class="button1"><i class="fa-regular fa-thumbs-up"></i>Like</button>
+                <button type="submit"class="button2"><i class="fa-regular fa-comment"></i>Comment</button>
+                <button type="submit"class="button3"><i class='bx bx-share'></i>Share</button>
+            </div>
             </div>
 
             <div class="card">
-                <img src="./img1.jpg">
-                
-                <button type="submit"><i class="fa-solid fa-thumbs-up"></i>Like</button>
-                <button type="submit">Comment </button> 
-                <button type="submit">Share</button>
+                <div class="cls_pst">
+                    <img class="card_img" src="./Images/boy6.jpg">
+                    <p class=""><b>Tom Russo</b></p>
+                </div>
+                <img class="cls_pst1"src="./img1.jpg">
+                <div class="lk_cmt_shr">
+                    <span><i class="fa-solid fa-thumbs-up"></i></span>
+                    <P class="l_id">2.5M</P>
+                    <p class="c_id">370 Comments</p>
+                    <p class="s_id">9.3k Shares</p>
+                </div>
+                <hr>
+                <div class="card__button">
+                    <button type="submit" class="button1"><i class="fa-regular fa-thumbs-up"></i>Like</button>
+                    <button type="submit" class="button2"><i class="fa-regular fa-comment"></i>Comment </button> 
+                    <button type="submit" class="button3"><i class='bx bx-share'></i>Share</button>
+                </div>
             </div>
                
            
      </div>
      <div class="right">
-        <p>Group conversations</p>
-        <i></i>
-        <p>Create New Group</p>
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/TxXTGsmjhnY?si=rHqEXtO4UNjKEjG7"
-         title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; 
-         encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross
-         -origin" allowfullscreen></iframe>
-         <ul>
-            <li>Deniss han</li>
-            <li>Eric Jones</li>
-            <li>Betty Chan</li>
-            <li>Henni Cook</li>
-         </ul>
+        <p id="sponcer">Sponcer</p>
+        <div id="id_rframe"class="right_frame">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/Ff8F_eWDcr4?si=JOEfsTmlIXJ2Gl6_" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <div class="right_content">
+                <p>What is Happening in Antarctica? </p>
+                <p>410K Views </p>
+            </div>
+        </div>
+        <div id="id_rframe1"class="right_frame">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/EFFVStl_Uac?si=47ZFLEkZGDCze-9s"
+             title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; 
+             encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-
+             cross-origin" allowfullscreen></iframe>
+             <div class="right_content">
+                <p>Fun Fact About Every Country in the World</p>
+                <p>7.1M Views</p>
+             </div>
+        </div>
+        <hr>
+        <P id="pg_prof">Your Pages and Profiles</P>
+        <div class="my_prof">
+            <img id="id_img"src="./Images/girl1.jpg">
+            <h4>Miss. Viha_1308</h4>
+        </div>
+        <div class="my_prof">
+            <span id="id_img1"><i class="fa-solid fa-user"></i></span>
+            <p>Switch to Page</p>
+        </div>
+        <div class="my_prof">
+            <i id="id_img2"class="fa-solid fa-bullhorn"></i>
+            <p>Create Promotion</p>
+        </div>
+        <hr>
+        <P id="birth_day">Birthdays</P>
+          <div class="gift">
+            <i class="fa-solid fa-gift"></i>
+            <p><b>James Bond </b>and <b>20 others</b> have their birthday today.</p>
+          </div>
+          <hr>
+          
+          <div class="contact">
+            <p id="contacts">Contacts</p>
+             <ul>
+               <li><img src="./Images/boy5.jpg">Deniss han</li>
+                <li><img src="./Images/boy5.jpg">Eric Jones</li>
+                <li><img src="./Images/boy5.jpg">Betty Chan</li>
+                <li><img src="./Images/boy5.jpg">Henni Cook</li>
+                <li><img src="./Images/boy5.jpg">Rowan Benton</li>
+                <li><img src="./Images/boy5.jpg">Deniss han</li>
+                <li><img src="./Images/boy5.jpg">Eric Jones</li>
+                <li><img src="./Images/boy5.jpg">Betty Chan</li>
+                <li><img src="./Images/boy5.jpg">Henni Cook</li>
+                <li><img src="./Images/boy5.jpg">Rowan Benton</li>
+             </ul>
+          </div>
+        
+         
     </div>
 
 </body>
 </html>
+
+<!-- urben clab-->
+            

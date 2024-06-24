@@ -1,3 +1,10 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
 body{
     background-color: #d46161;
 }
@@ -13,10 +20,14 @@ body{
     display: flex;
     align-items: center;
 }
+
 #facebook{
-    font-size: 25px;
+    font-size: 23px;
     color: #1877F2;
-    padding-right: 5px;
+    padding-right: 3px;
+    margin-left: 10px;
+    margin-right: 5px;
+    font-size: 30px;
 }
 #search-icon{
     padding-right: 4px;
@@ -36,32 +47,36 @@ body{
 #users{
     font-size: 20px;
    color: black;
-   padding-left: 80px;
+   padding: 0;
 }
-#message{
-    font-size: 25px;
-    padding-left: 30px;
-    color: #1877F2;
+#s1{
+    width: 26px;
+    height: 26px;
+    background-color: #fff;
+    border-radius: 50%;
+    margin-left: 80px;
+    line-height: 35px;
+    text-align: center;
+    border: 1.5px solid  black;
 }
-#bell{
-    font-size: 25px;
-    padding-left: 20px;
-    color: black;
-}
+
 
 .search-box{
     align-items: center;
     display: flex;
-    width: 200px;
-    height: 25px;
+    width: 220px;
+    height: 30px;
     font-size: 15px;
     border-radius: 15px;
-    background-color: #f7f7f7;
+    background-color: rgb(210, 210, 250)
+}
+.topnav #search-icon{
+    margin-left: 10px;
 }
 .topnav #search-bar{
     width: 150px;
       height: 30px;
-      font-size: 15px;
+      font-size: 13px;
      background:none;
      border: none;
      border-radius: 15px;
@@ -73,96 +88,419 @@ body{
     border-radius: 15px;
     font-weight:bold;
     text-align: center;
-    margin-left: 150px;
+    margin-left: 230px;
+    background-color: rgb(210, 210, 250);
+    border: none;
 }
+.topnav span{
+    width: 30px;
+    height: 30px;
+    background-color:  rgb(210, 210, 250);
+    border-radius: 50%;
+    text-align: center;
+    line-height: 35px;
+    margin-left: 10px;
+}
+#square{
+    color: black;
+    font-size: 20px;
+}
+
+#message{
+    font-size: 20px;
+    color: black;
+    
+}
+#bell{
+    font-size: 20px;
+    color: black;
+    
+}
+#user3{
+   color:#fff;
+   font-size: 20px;
+}
+
+
 .topnav img{
     width: 30px;
     height: 30px;
     border-radius:30px;
 }
+.container .left::-webkit-scrollbar{
+    width: 7px;
+}
 .left{
     background-color:#bbc4f7;
-    width: 17vw;
+    width: 20vw;
     
 }
-.left i{
-    padding-right:10px;
-    padding-left: 0;
-    margin-left: 0;
+.left ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
 }
+.left li{
+    margin-top: 25px;
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
+}
+.left i{
+    font-size: 20px;
+   margin-right: 10px;
+   margin-left: 7px;
+   color:rgb(96, 96, 241);
+}
+
+.left #id_user{
+    width:25px;
+    height: 25px;
+    background-color:rgb(96, 96, 241);;
+    border-radius: 50%;
+    text-align: center;
+    margin-right: 10px;
+    margin-left: 7px;
+}
+.left #left_icon3{
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    margin-right:10px;
+    margin-left: 7px;
+}
+.left #left_icon1{
+    font-size: 15px;
+    color:whitesmoke;
+    margin: 0;
+ }
+
+.left #left_icon2{
+    font-size: 15px;
+    color:whitesmoke;
+    margin-right: 10px;
+    border: 3px solid rgb(96, 96, 241);
+    border-radius: 50%;
+    background-color: rgb(96, 96, 241);
+
+ }
+ 
+
+
 .middle{
-    background-color:#bbc4f7;
-    width: 55vw;
+    background-color:#aab6fc;
+    width: 53vw;
+    
     
 }
 
 .story{
     background: #fff;
-    display: flex;
+    padding-top: 1px;
     width: 55vw;
+    padding-bottom: 10px;
+}
+.story p{
+    font-size: 30px;
+    margin-left:50px;
     
 }
-.story img{
+    
+
+.story .post_image{
     width:120px;
-    height:250px
+    height:250px;
+    border-radius:10px;
     
 }
+#girl1{
+    margin-left: 45px;
+    
+}
+ .story_image{
+    position: absolute;
+    height: 40px;
+    width: 40px;
+    top: 8px;
+    border-radius: 50%;
+    border: 1px solid #fff;
+    
+}
+.story_image1{
+    
+    height: 40px;
+    width: 40px;
+    top: 8px;
+    border-radius: 50%;
+    border: 1px solid #fff;
+}
+
+.story #id_pic{
+    margin-left: 7px;
+}
+.story #id_pic1{
+    margin-left: 7px;
+}
+.posts .story_name{
+    position: absolute;
+    top:200px;
+    color: white;
+    font-weight: bolder;
+    font-size: 20px;
+    margin-left: 5px;
+}
+
+
+
 .posts{
+    position: relative;
+    display: inline-block;
     width:120px;
-    padding: 10px;
+    align-items: center;
     border-radius: 20px;
-    height:250px
+    height:250px;
+    margin-right: 3px;
+    padding: 0;
+    margin-top: 15px;
+    box-shadow: 0 1px 8px rgba(0,0,0,0.3);
 }
 .addpst{
     background: #fff;
     margin-top: 40px;
     height: 100px;
+    border-radius: 10px;
 }
-.addpst input{
+.addpst .add_post{
+    display:flex
+}
+.addpst .add_post img{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin: 10px;
+    
+}
+.addpst .add_post input{
       width: 600px;
-      height: 25px;
+      height: 30px;
       font-size: 15px;
       border-radius: 15px;
-      background-color: #f7f7f7;
+      background-color: rgb(210, 210, 250);
       margin-top: 10px;
+      padding-left: 10px;
+      border: none;
 }
 .add{
     display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
 }
+
 .add p{
     
     font-weight: 300;
+    margin-right: 70px;
+    margin-left: 5px;
 }
 .add #vedio{
     color:red;
+    
 }
 .add #image{
     color:green;
+    
 }
 .add #smile{
     color:yellow;
+   
 }
 .card{
-    margin:0 0 10px 30px;
+    margin:10px 0 10px 5%;
     justify-content:center ;
-    flex:1;
-    width: 100%;
+    
+    width: 90%;
     background-color: #fff;
 }
-.card img{
+.card .cls_pst{
+    width: 100%;
+   display: flex;
+   align-items: center;
+}
+.card .card_img{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    margin: 10px 10px 5px 10px;
+    
+}
+.card .cls_pst1{
     display: block;
     justify-content: center;
-    width: 90%;
+    width: 100%;
     height: auto;
-    padding-bottom: 10px
+    padding-bottom: 10px;
+    
+}
+.card .lk_cmt_shr{
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.lk_cmt_shr i{
+    color: white;
+}
+.lk_cmt_shr span{
+    
+    width: 21px;
+    height: 21px;
+    background-color: #68a7fa;
+    padding: 2px;
+    border-radius: 50%;
+    margin-left: 15px;
+}
+.lk_cmt_shr p{
+    font-size: 13px;
+    color: darkslategrey;
+    font-weight: 500;
+}
+.lk_cmt_shr .l_id{
+     margin-left: 5px;
+}
+.lk_cmt_shr .c_id{
+    margin-left: 375px;
+}
+.lk_cmt_shr .s_id{
+    margin-left: 20px;
 }
 .card button{
-    margin: 0 5px 0 5px;
+    margin: 0 5px 10px 0;
+    background: transparent;
+    border: none;
+    font-size: 17px;
 }
+
+.card .button1{
+    margin-left: 70px;
+}
+.card .button2{
+    margin-left: 100px;
+}
+.card .button3{
+    margin-left: 100px;
+}
+
+.card i{
+    margin-right: 5px;
+}  
 .right{
     background-color:#bbc4f7;
-    width:28vw;
+    width:25vw;
     height: 1000px;
     padding: 0 13px;
 }
+.right #sponcer{
+    margin: 10px;
+    color: darkslategray;
+    font-size: 20px;
+    font-weight: bolder;
+}
+.right .right_frame{
+    width: 98%;
+    
+    display: flex;
+    height:100px ;
+}
+.right .right_frame iframe{
+    width: 160px;
+    height: 100px;
+    margin-right: 8px;
+}
+.right #id_rframe{
+    margin-bottom: 5px;
+}
+.right #id_rframe1{
+    margin-bottom: 5px;
+}
+.right .right_frame .right_content p{
+    font-size: 15px;
+    margin: 5px 5px 10px 5px;
+}
+#id_img{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    margin-right: 5px;
+}
+.right #pg_prof{
+    margin-top: 10px;
+    font-size: 15px;
+    margin-bottom: 10px;
+    color: darkslategrey;
+}
+.right .my_prof{
+    display: flex;
+    margin: 5px 0 5px 0;
+    height: 30px;
+    
+    align-items: center;
+}
+.right #id_img1{
+    
+        color:#fff;
+        font-size: 20px;
+        width: 26px;
+        height: 26px;
+        background-color:  rgb(35, 35, 182);
+        border-radius: 50%;
+        text-align: center;
+        margin-left: 30px;
+        margin-right: 5px;
+}
+.right #id_img2{
+    margin-left: 30px;
+    margin-right: 5px;
+    font-size: 25px;
+}
+.my_prof p{
+    font-size: 14px;
+    color:darkslategray;
+}
+.right #birth_day{
+    color: darkslategray;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.right .gift{
+    display: flex;
+    margin-bottom: 10px;
+}
+.right .gift i{
+    font-size: 30px;
+    color: purple;
+    margin-right: 15px;
+}
+.right .gift p{
+    font-size: 17px;
+    color: darkslategray;
+}
+.contact #contacts{
+    margin-top: 10px;
+}
+.contact ul{
+    list-style: none;
+}
+.contact img{
+    width: 30px;
+    height: 30px;
+    border: 2px solid white;
+    border-radius: 50%;
+    margin-right: 8px;
+    margin-top: 8px;
+}
+.contact li{
+    display: flex;
+    align-items: center;
+    font-size: 13.5px;
+    font-style: inherit;}
 
